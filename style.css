@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top {
+    height: 190px;
+    width: 100vw;
+    background-image: url(images/top-image.svg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom {
+    height: 300px;
+    width: 100vw;
+    background-image: url(images/bottom-image.svg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 409px;
+    width: 100vw;
+}
+
+.mid-imagem {
+    width: 607px;
+    height: 90%;
+    background-image: url(images/rocket.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.relogio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 607px;
+}
+
+.relogio-titulo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #6C63FF;
+    margin-bottom: 20px;
+}
+
+.relogio-numero {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    color: #4D4C59;
+    width: 494px;
+    text-align: center;
+}
+
+.dia-hora-minuto-segundo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+    width: 494px;
+}
+
+.relogio-subtitulo {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9C9AB6;
+    margin-top: 46px;
+}
+
+.relogio-texto {
+    width: 100px;
+    text-align: center;
+}
+
+/* botão */
+.botao {
+    width: 160px;
+    height: 46px;
+    background: #6C63FF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 31px;
+}
